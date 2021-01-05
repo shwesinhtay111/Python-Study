@@ -24,6 +24,14 @@ Varible Assignments
 ====================
       - Python uses dynamic typing, meaning you can reassign variables to different data types
       - Variable assignment follows name = object, where a single equals sign = is an assignment operator
-      - Determining variable type with type()¶
+      - Determining variable type with type()
+String
+======
+      1.) Creating Strings
+      2.) Printing Strings
+      3.) String Indexing and Slicing
+      4.) String Properties
+      5.) String Methods
+      6.) Print Formatting
 
          
