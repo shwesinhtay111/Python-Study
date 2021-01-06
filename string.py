@@ -49,5 +49,13 @@ print(s.split('W'))
 # Print Formatting
 print('Insert another string with curly brackets: {}'.format('The inserted string'))
 print('Hello {}'.format('Shwe Sin'))
-s = 'abcdef'
-print(s[2:3:4])
+
+# s = 'abcdefghijk'
+# print(s[2:9:3])
+# 2-start index
+# 9-end index
+# 3-count index
+# Output - cfi
+
+s = 'abcdefghijk'
+print(s[2:9:3])
