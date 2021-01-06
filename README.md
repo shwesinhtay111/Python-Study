@@ -249,9 +249,28 @@ List-mutable,can be canged -> other languages like array
 Dictionaries -> other languages like hash tables
 =============
       1.) Constructing a Dictionary
+      ==============================
+            my_dict = {'key1': 'value1','key2':'value2'}
       2.) Accessing objects from a dictionary
+      =======================================
+            my_dict = {'key1':123,'key2':[12,23,33],'key3':['item0','item1','item2']}
+            print(my_dict['key3'])
+            print(my_dict['key3'][0])
+            print(my_dict['key3'][0].upper())
+            print(my_dict['key1'])
+            my_dict['key1'] = my_dict['key1'] - 123
+            print(my_dict['key1'])
+
       3.) Nesting Dictionaries
+      ========================
+            d = {'key1':{'nestkey':{'subnestkey':'value'}}}
+            print(d['key1']['nestkey']['subnestkey'])
       4.) Basic Dictionary Methods
+      ============================
+            d = { 'key1':1,'key2':2,'key3':3}
+            print(d.keys())
+            print(d.values())
+            print(d.items())
 Tuples - Immutable,cannot be changed
 =========
       1.) Constructing Tuples
