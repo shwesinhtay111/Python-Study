@@ -376,6 +376,7 @@ Tuples - Immutable,cannot be changed
            print(f.read())
            
    ============================================
+   
       myfile=open('test1.txt',mode='w')
       myfile.write('Hello World')
       myfile.close()
