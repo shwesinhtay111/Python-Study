@@ -185,7 +185,7 @@ String Formatting
       print("My 10 character, four decimal number is:{0:10.4f}".format(num))
       print(f"My 10 character, four decimal number is:{num:10.4f}")
       
-List-immutable,can be canged
+List-mutable,can be canged
 ==============================
       1.) Creating lists
       2.) Indexing and Slicing Lists
