@@ -293,3 +293,25 @@ Tuples - Immutable,cannot be changed
             -If in your program you are passing around an object and need to make sure it does not get changed, then a tuple becomes your solution. 
             -It provides a convenient source of data integrity
          
+ Sets 
+ ===
+      x = set()
+      x.add(1)
+      x.add(2)
+      x.add(1), output -> {1,2}
+      - Sets are an unordered collection of unique elements
+      - can cast a list with multiple repeat elements to a set to get the unique elements
+            # Create a list with repeats
+            list1 = [1,1,2,2,3,4,5,6,1,1]
+            # Cast as set to get unique values
+            set(list1) , Output -> {1, 2, 3, 4, 5, 6}
+            
+ Booleans
+ ===========
+      -Python comes with Booleans (with predefined True and False displays that are basically just the integers 1 and 0). It also has a placeholder object called None
+      # Set object to be a boolean
+      a = True
+      # Output is boolean
+      1 > 2, Output -> False
+      # None placeholder
+      b = None
