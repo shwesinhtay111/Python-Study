@@ -374,4 +374,10 @@ Tuples - Immutable,cannot be changed
 
       with open('abc.txt',mode='r') as f:
            print(f.read())
+           
+   ============================================
+      myfile=open('test1.txt',mode='w')
+      myfile.write('Hello World')
+      myfile.close()
+
 
