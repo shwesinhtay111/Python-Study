@@ -216,14 +216,14 @@ String Formatting
       print("My 10 character, four decimal number is:{0:10.4f}".format(num))
       print(f"My 10 character, four decimal number is:{num:10.4f}")
       
-List-mutable,can be canged
+List-mutable,can be canged -> other languages like array
 ==============================
       1.) Creating lists
       2.) Indexing and Slicing Lists
       3.) Basic List Methods
       4.) Nesting Lists
       5.) Introduction to List Comprehensions
-Dictionaries
+Dictionaries -> other languages like hash tables
 =============
       1.) Constructing a Dictionary
       2.) Accessing objects from a dictionary
