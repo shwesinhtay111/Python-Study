@@ -366,3 +366,10 @@ Tuples - Immutable,cannot be changed
       # Iterating through a File
       for line in open('textfile.txt'):
        print(line)
+       
+       with open('abc.txt',mode='w') as f:
+       f.write('I created this file!')
+
+      with open('abc.txt',mode='r') as f:
+           print(f.read())
+
