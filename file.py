@@ -49,3 +49,10 @@ for line in open('textfile.txt'):
  with open('textfile.txt',mode='r') as myfile:
      contents = myfile.read()
 print(contents)
+
+
+with open('abc.txt',mode='w') as f:
+ f.write('I created this file!')
+
+with open('abc.txt',mode='r') as f:
+     print(f.read())
