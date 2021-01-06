@@ -25,8 +25,8 @@ Varible Assignments
       - Python uses dynamic typing, meaning you can reassign variables to different data types
       - Variable assignment follows name = object, where a single equals sign = is an assignment operator
       - Determining variable type with type()
-String
-======
+String - Immutable,cannot be changed
+====================================
       1.) Creating Strings
       2.) Printing Strings
       3.) String Indexing and Slicing
@@ -184,6 +184,13 @@ String Formatting
       num = 23.45
       print("My 10 character, four decimal number is:{0:10.4f}".format(num))
       print(f"My 10 character, four decimal number is:{num:10.4f}")
-
+      
+List-immutable,can be canged
+==============================
+      1.) Creating lists
+      2.) Indexing and Slicing Lists
+      3.) Basic List Methods
+      4.) Nesting Lists
+      5.) Introduction to List Comprehensions
 
          
