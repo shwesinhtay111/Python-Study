@@ -219,10 +219,33 @@ String Formatting
 List-mutable,can be canged -> other languages like array
 ==============================
       1.) Creating lists
+      ===================
+            my_list = [1, 2, 3]
+            print(my_list)
       2.) Indexing and Slicing Lists
+      ==============================
+            my_list = ['one','two','three',4,5]
+            print(my_list[0])
+            print(my_list[:3])
       3.) Basic List Methods
+      =======================
+            list1 = [1, 2, 3]
+            list1.append('append me!')
+            list1.pop(0)
+            list1.sort()
+            list1.reverse()
       4.) Nesting Lists
+      ===================
+            lst_1=[1,2,3]
+            lst_2=[4,5,6]
+            lst_3=[7,8,9]
+            matrix = [lst_1,lst_2,lst_3]
+            matrix[0][0]
+            
       5.) Introduction to List Comprehensions
+      =======================================
+            first_col = [row[0] for row in matrix]
+            print(first_col)
 Dictionaries -> other languages like hash tables
 =============
       1.) Constructing a Dictionary
