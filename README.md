@@ -274,8 +274,22 @@ Dictionaries -> other languages like hash tables
 Tuples - Immutable,cannot be changed
 =========
       1.) Constructing Tuples
+      ==========================
+            t = (1, 2, 3)
+            t = ('one', 1,'one')
       2.) Basic Tuple Methods
+      ======================
+            print(t.index('one'))
+            print(t.count('one'))
+            
       3.) Immutability
+      ================
+             t[0] = 'change' -error
+             t.append('nope') -error
+             
       4.) When to Use Tuples
-
+      =======================
+            -tuples are not used as often as lists in programming, but are used when immutability is necessary
+            -If in your program you are passing around an object and need to make sure it does not get changed, then a tuple becomes your solution. 
+            -It provides a convenient source of data integrity
          
