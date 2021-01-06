@@ -229,5 +229,11 @@ Dictionaries -> other languages like hash tables
       2.) Accessing objects from a dictionary
       3.) Nesting Dictionaries
       4.) Basic Dictionary Methods
+Tuples - Immutable,cannot be changed
+=========
+      1.) Constructing Tuples
+      2.) Basic Tuple Methods
+      3.) Immutability
+      4.) When to Use Tuples
 
          
