@@ -223,5 +223,11 @@ List-mutable,can be canged
       3.) Basic List Methods
       4.) Nesting Lists
       5.) Introduction to List Comprehensions
+Dictionaries
+=============
+      1.) Constructing a Dictionary
+      2.) Accessing objects from a dictionary
+      3.) Nesting Dictionaries
+      4.) Basic Dictionary Methods
 
          
