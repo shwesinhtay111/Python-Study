@@ -44,3 +44,8 @@ print(my_file.read())
 # Iterating through a File
 for line in open('textfile.txt'):
  print(line)
+
+
+ with open('textfile.txt',mode='r') as myfile:
+     contents = myfile.read()
+print(contents)
