@@ -367,6 +367,8 @@ Tuples - Immutable,cannot be changed
       for line in open('textfile.txt'):
        print(line)
        
+   ========================================
+       
        with open('abc.txt',mode='w') as f:
        f.write('I created this file!')
 
