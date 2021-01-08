@@ -399,4 +399,10 @@ Comparison Operators
       print (1 < 2 > 5)
       print( 1 < 2 or 2 > 5)
       print( 1 < 2 and 2 > 5)
-
+Python Statements
+==================
+      if x:
+          if y:
+              code-statement
+      else:
+          another-code-statement
