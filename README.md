@@ -380,5 +380,23 @@ Tuples - Immutable,cannot be changed
       myfile=open('test1.txt',mode='w')
       myfile.write('Hello World')
       myfile.close()
-
+Comparison Operators
+=======================
+      Equal
+            1 == 2
+      Not Equal
+            1 != 2
+      Greater Than
+            1 > 2
+      Less Than
+            1 < 2
+      Greater Than or Equal to
+            1 >= 2
+      Less than or Equal to
+            1 <= 2
+ Chained Comparison Operators
+ =============================
+      print (1 < 2 > 5)
+      print( 1 < 2 or 2 > 5)
+      print( 1 < 2 and 2 > 5)
 
