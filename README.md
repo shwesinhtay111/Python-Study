@@ -406,3 +406,43 @@ Python Statements
               code-statement
       else:
           another-code-statement
+if, elif, else Statements
+=========================
+      if case1:
+            perform action1
+      elif case2:
+          perform action2
+      else: 
+          perform action3
+For Loop
+========
+      for item in object:
+          statements to do stuff
+while Loops
+===========
+      while test:
+           code statements
+      else:
+          final code statements
+ break, continue, pass
+ ======================
+     -  break: Breaks out of the current closest enclosing loop.
+     -  continue: Goes to the top of the closest enclosing loop.
+     - pass: Does nothing at all.
+         while test: 
+                code statement
+                if test: 
+                    break
+                if test: 
+                    continue 
+         else:
+Useful Operators
+==================
+      range
+      enumerate
+      zip
+      in operator
+      not in
+      min and max
+      random library -two useful functions -> randint(0,100), shuffle(mylist)
+      input
