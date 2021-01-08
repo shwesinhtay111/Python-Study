@@ -380,5 +380,69 @@ Tuples - Immutable,cannot be changed
       myfile=open('test1.txt',mode='w')
       myfile.write('Hello World')
       myfile.close()
-
-
+Comparison Operators
+=======================
+      Equal
+            1 == 2
+      Not Equal
+            1 != 2
+      Greater Than
+            1 > 2
+      Less Than
+            1 < 2
+      Greater Than or Equal to
+            1 >= 2
+      Less than or Equal to
+            1 <= 2
+ Chained Comparison Operators
+ =============================
+      print (1 < 2 > 5)
+      print( 1 < 2 or 2 > 5)
+      print( 1 < 2 and 2 > 5)
+Python Statements
+==================
+      if x:
+          if y:
+              code-statement
+      else:
+          another-code-statement
+if, elif, else Statements
+=========================
+      if case1:
+            perform action1
+      elif case2:
+          perform action2
+      else: 
+          perform action3
+For Loop
+========
+      for item in object:
+          statements to do stuff
+while Loops
+===========
+      while test:
+           code statements
+      else:
+          final code statements
+ break, continue, pass
+ ======================
+     -  break: Breaks out of the current closest enclosing loop.
+     -  continue: Goes to the top of the closest enclosing loop.
+     - pass: Does nothing at all.
+         while test: 
+                code statement
+                if test: 
+                    break
+                if test: 
+                    continue 
+         else:
+Useful Operators
+==================
+      range
+      enumerate
+      zip
+      in operator
+      not in
+      min and max
+      random library -two useful functions -> randint(0,100), shuffle(mylist)
+      input
