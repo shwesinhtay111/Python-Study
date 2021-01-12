@@ -32,10 +32,6 @@ print_result(10,2)
 
 # You won't see any output if you run this in a .py script
 return_result(10,5)
-
-my_result = print_result(20,20)
-print(type(my_result))
-
 my_result = return_result(20,20)
 print(my_result)
 print(my_result + my_result)
