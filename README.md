@@ -447,7 +447,7 @@ Useful Operators
       random library -two useful functions -> randint(0,100), shuffle(mylist)
       input
       
- Funtion
+ Function
  =======
       - The return keyword allows you to actually save the result of the output of a function as a variable.
       - The print() function simply displays the output to you, but doesn't save it for future use
