@@ -489,7 +489,7 @@ Useful Operators
 
       B: Built-in (Python) — Names preassigned in the built-in names module : open, range, SyntaxError,...
       
- *args and *kwargs
+ *args and **kwargs
  =================
       # function parameter starts with an asterisk, it allows for an arbitrary number of arguments
       #  the function takes them in as a tuple of values
