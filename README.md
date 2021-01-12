@@ -461,8 +461,9 @@ Useful Operators
       
  Lambda Expresssion
  ==================
-      map
-      filter
+      - map
+      - filter
+      
       def splicer(mystring):
           if len(mystring) % 2 == 0:
               return 'even'
