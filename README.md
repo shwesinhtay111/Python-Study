@@ -527,4 +527,22 @@ Useful Operators
 
       # Placing keyworded arguments ahead of positional arguments raises an exception
        myfunc_test(fruit='cherries',juice='orange','eggs','spam')
+       
+ OOP Concepts
+ ============
+      -In Python, everything is an object
+      -User defined objects are created using the class keyword
+      -An attribute is a characteristic of an object. 
+      -A method is an operation we can perform with the object.
+      -The syntax for creating an attribute is:
+            self.attribute = something
+      -There is a special method called:
+            __init__()
+      -Inheritance is a way to form new classes using classes that have already been defined
+      -Polymorphism refers to the way in which different object classes can share the same method name, and those methods can be called from the same place even though a variety        of different objects might be passed in
+      -Classes in Python can implement certain operations with special method names. These methods are not actually called directly but by Python specific language syntax
+            __init__(),
+            __str__(),
+            __len__() and 
+            __del__() 
 
